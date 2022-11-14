@@ -36,9 +36,6 @@ Remaining Questions
 
 - This contract imports an interface named ICuratorFactory. By importing this interface, a state variable called curatorFactory can then be declared that takes the shape of that interface.
 
-/// @notice Reference to factory contract
-ICuratorFactory private immutable curatorFactory;
-
 Remaining Questions
 
 - If the imported contract were not an interface, and instead the base implementation of CuratorFactory, what would change?
